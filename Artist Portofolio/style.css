@@ -1,0 +1,84 @@
+body{
+    font-family: Cormorant, serif;
+    font-size: 3rem;
+}
+
+h1{
+    display: inline-block;
+    font-weight: 300;
+    margin: 0 32px 0 0;
+}
+
+.links{
+    display: inline-block;
+}
+
+.links li{
+    display: inline-block;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 8px;
+}
+
+.navbar{
+    margin: 32px;
+}
+
+.links ul{
+    padding: 0;
+}
+
+a.active{
+    border-bottom: 1px solid black;
+}
+
+.card{
+    width: 49.75%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 16px;
+}
+.card img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card h2{
+    display: inline-block;
+    font-weight: 300;
+    margin-top: 8px 0 16px 0;
+}
+
+.gallery{
+    padding: 16px;
+}
+
+.about{
+    width: 40%;
+    /* min-width: 500px; */
+    /* height: 600px; */
+    margin: 100px 0 100px 200px;
+}
+
+.desc {
+    font-weight: 300;
+    /* width: 40%; */
+    min-width: 500px;
+    margin-bottom: 0;
+}
+
+.moto h3{
+    display: inline-block;
+    font-weight: 300;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+    padding-bottom: 8px;
+}
+
+.card img:hover{
+    opacity: 0.8;
+}
